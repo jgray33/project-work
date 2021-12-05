@@ -79,12 +79,22 @@ p {
     max-height: 200px;
 }
 
-.seo-image {
+.left-floating-imgs {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+.reputation-graph-laptop {
     float: right;
     margin-left: 25px;
 }
@@ -152,14 +162,6 @@ p {
 
 
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 .social-media-marketing {
     margin-bottom: 20px;
