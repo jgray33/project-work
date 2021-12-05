@@ -38,41 +38,35 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/*Header formatting: navigation formatting */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Navigation link colour*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-
-
-
+/*Lead image sizing*/
 .main-img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-}
+    }
 
+/*Overall formatting for three articles*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Search engine optimization box formatting: alignment, font size, box colour*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,15 +77,24 @@ p {
     
 }
 
+/*Search engine optimization box: Image formatting:*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Search engine and social media marketing images: left floating alignment*/
 .left-floating-imgs {
     float: left;
     margin-right: 25px;
 }
 
+/*Search engine optimization heading formatting*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*online reputation management box: alignment, font size, box colour*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,14 +104,42 @@ p {
     color: #ffffff;
 }
 
-
-.reputation-graph-laptop {
+/*online reputation image formatting */
+.online-reputation-img {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
+}
+
+/*Online reputation management heading formatting*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*social media marketing box: alignment, font size, box colour*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Social media marketing heading formatting*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Social media marketing IMAGE formatting*/
+.social-media-marketing img {
+    max-height: 200px;
 }
 
 
-
+/*Side bar formatting*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,91 +151,64 @@ p {
     background-color: #2589bd;
 }
 
+/*Side bar: lead generation BOX formatting */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/*Side bar: lead generation TITLE formatting */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/*Side bar: lead generation LOGO formatting*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Side bar: brand awareness BOX formatting */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Side bar: brand awareness TITLE formatting*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Side bar: brand awareness LOGO formatting*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*side bar: cost management BOX formatting*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Side bar: cost management TITLE formatting*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Side bar: cost management LOGO formatting*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Footer formatting*/
 .footer {
     padding: 30px;
     clear: both;
@@ -212,6 +216,7 @@ p {
     text-align: center;
 }
 
+/*footer heading*/
 .footer h2 {
     font-size: 20px;
 }
