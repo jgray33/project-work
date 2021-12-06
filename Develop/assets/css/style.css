@@ -10,6 +10,17 @@ body {
   background-color: #d9dcd6;
 }
 
+/*Header formatting: HoriSEOn formatting: font size 48px*/
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/*Header formatting: HoriSEOn formatting: SEO is a different colour */
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
 /*Heading formatting: Main content*/
 h2 {
   margin-bottom: 20px;
@@ -31,16 +42,6 @@ h3 {
   color: #ffffff;
 }
 
-/*Header formatting: HoriSEOn formatting: font size 48px*/
-.header h1 {
-  display: inline-block;
-  font-size: 48px;
-}
-
-/*Header formatting: HoriSEOn formatting: SEO is a different colour */
-.header h1 .seo {
-  color: #d9dcd6;
-}
 
 /*Header formatting: Navigation formatting: padding, font, alignment, size*/
 .header nav {
